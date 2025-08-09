@@ -30,7 +30,7 @@ DRIVE_DISK=fs
 
 - npm i
 - node ace migration:run
-- node db:seed (si vous voulez populate la base de donnée)
+- node ace db:seed (si vous voulez populate la base de donnée)
 - npm run dev
 
 ou connectez-vous sur https://app.my-studiz.com
