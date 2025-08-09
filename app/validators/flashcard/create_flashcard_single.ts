@@ -1,7 +1,7 @@
 import vine from '@vinejs/vine'
 import FlashcardType from '#enums/flashcard_type'
 
-export const createFlashcardSingleValidator = vine.compile(
+export let createFlashcardSingleValidator = vine.compile(
   vine.object({
     ownerId: vine.string(),
     folderId: vine.string(),
